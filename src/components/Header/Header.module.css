@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+}
+
+.header__title {
+
+}
+
+.header__subtitle {
+
+}
