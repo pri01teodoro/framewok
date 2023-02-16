@@ -15,7 +15,6 @@ export default function Header(){ //function Header()
                 </div>
              </div>
 
-             <div></div>
         </header>
         
     )
