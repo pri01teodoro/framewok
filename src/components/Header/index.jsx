@@ -14,7 +14,10 @@ export default function Header(){ //function Header()
                     <h2>Receitas fáceis</h2>
                 </div>
              </div>
+
+             <div></div>
         </header>
+        
     )
 }
 
