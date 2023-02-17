@@ -1,12 +1,19 @@
 .card {
     border: 1px solid #eb5757;
     border-radius: 5px;
-    padding: 10px;
     margin: 10px;
 }
 
+.image__container{
+    position: relative;
+}
+
 .card__title {
-    color: #eb5757;
+    color: #F2F2F2;
+    background-color:rgba(235, 87, 87, 0.6);
+    width: 387px;
+    height: 64px;
+    /* position: absolute; */
 }
 
 .card__info {
