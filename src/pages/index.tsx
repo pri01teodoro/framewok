@@ -3,6 +3,7 @@ import Header from "../components/Header";
 
 
 
+
 export default function Home() {
 
   const receitasApi = [
@@ -12,7 +13,8 @@ export default function Home() {
   ]
   return (
     <>
-      <Header />
+      <Header 
+      />
       
       <CardList receitas={receitasApi} />
     </>

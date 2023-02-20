@@ -6,6 +6,8 @@
 
 .image__container{
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .card__title {
@@ -13,9 +15,20 @@
     background-color:rgba(235, 87, 87, 0.6);
     width: 387px;
     height: 64px;
-    /* position: absolute; */
+    position: absolute;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 16px;
 }
 
 .card__info {
     font-size: 14px;
+    padding-top: 19px;
+}
+
+.time__container {
+    display: row;   
+    align-items: center;
 }

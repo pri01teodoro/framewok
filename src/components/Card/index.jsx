@@ -9,7 +9,10 @@ export default function Card({titulo, tempoPreparo, porcoes, imagem, descricao})
                 <h2 className={styles.card__title}>{titulo}</h2> {/* class é uma palavra reservada do javascript, usa-se className */}
             </div>
             <div className={styles.card__info}>
-                <span>{tempoPreparo} minutos</span>
+                <div>
+                    <img src="/relogio.svg" />
+                    <span>{tempoPreparo} minutos</span>
+                </div>
                 <span>{porcoes} pessoas</span>
             </div>
         </div>
