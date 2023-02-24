@@ -30,6 +30,9 @@
 }
 
 .card__info {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     padding-top: 19px;
     display: flex;
