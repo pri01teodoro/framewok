@@ -1,0 +1,14 @@
+.paginacao{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.box__paginacao{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #EB5757;
+    border-radius: 5px;
+}
