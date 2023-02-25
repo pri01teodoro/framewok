@@ -12,3 +12,25 @@
     border: 1px solid #EB5757;
     border-radius: 5px;
 }
+
+.paginacao a {
+    padding: 13px 7px;
+    text-decoration: none;
+    /* margin-left: 11px; */
+    font-family: "Quicksand";
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+  
+/* pagination hover effect on non-active */
+.paginacao a:hover {
+    background-color: #EB5757;
+    color: #F1F1F1;
+}
+  
+/* pagination hover effect on active */
+.paginacao a:nth-child(1) {
+    background-color: #0055B7;
+    color: white;
+}
