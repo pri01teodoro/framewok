@@ -1,8 +1,14 @@
 .paginacao{
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.box-paginacao{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #EB5757;
+    text-align: center;
 }
 
 
