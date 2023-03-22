@@ -2,8 +2,6 @@ import CardList from "../components/CardList";
 import Header from "../components/Header";
 import Pagination from "../components/Pagination"; 
 import styles from "../components/CardList/CardList.module.css";
-import Users from "../components/Users";
-/* import styles from "../components/Pagination/Pagination.module.css"; */
 
 
 
@@ -33,7 +31,6 @@ export default function Home() {
         </div>
     </div>  
 
-    <Users />  
 
     </>
   )

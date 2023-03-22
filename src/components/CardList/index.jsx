@@ -6,7 +6,9 @@ import axios from "axios";
 export default function CardList(){
 
     const [receitas, setReceitas] = useState([]);
-    const url = "http://localhost:3010/receitas";
+
+
+    const url = "https://localhost:3000/receitas";
 
     useEffect( () => {
         axios.get(url).then(resposta => setReceitas(resposta.data)); //data serve para pegar os dados

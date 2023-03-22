@@ -1,5 +1,4 @@
-{
-    "receitas" : [
+ export const receitas = [
         
         {"id": 1, "titulo": "Arroz com ovo", "tempoPreparo": "25", "porcoes": "2", "imagem":"/roscovo.png", "descricao": "Imagem de um prato de arroz com ovo"},
         {"id": 2, "titulo": "Ovo com arroz e pepino", "tempoPreparo": "20", "porcoes": "1", "imagem": "/roscopepino.png", "descricao": "Imagem de um prato de arroz com ovo"},
@@ -11,12 +10,4 @@
         {"id": 8, "titulo": "Ovo com pão e ricota", "tempoPreparo":"25", "porcoes": "2", "imagem": "/ovopaoric.png", "descricao": "Imagem de ovo cozido com pão e ricota"},
         {"id": 9, "titulo": "Ovo com pão e guacamole", "tempoPreparo":"25", "porcoes": "2", "imagem": "/ovoguac.png", "descricao": "Imagem de ovo cozido com pão e guacamole"}   
             
-    ],
-
-    "usuarios": [
-        {"id": 1, "nome": "Pedro"},
-        {"id": 2, "nome": "Maria"},
-        {"id": 3, "nome": "João"}
-
-    ]
-}
+ ]
