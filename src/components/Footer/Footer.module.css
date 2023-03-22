@@ -1,0 +1,25 @@
+.card{
+    margin-top: 159px;
+    height: 100px;
+    background-color: #F2F2F2;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: 134px;
+    padding-top: 21px;
+    display: flex;
+}
+
+.font{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container__font{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}

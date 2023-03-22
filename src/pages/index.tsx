@@ -1,6 +1,7 @@
 import CardList from "../components/CardList";
 import Header from "../components/Header";
 import Pagination from "../components/Pagination"; 
+import Footer from "../components/Footer";
 import styles from "../components/CardList/CardList.module.css";
 
 
@@ -29,7 +30,9 @@ export default function Home() {
               numero={pagina.numero} />
           ))}
         </div>
-    </div>  
+    </div> 
+
+      <Footer />
 
 
     </>
