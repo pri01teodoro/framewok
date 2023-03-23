@@ -5,17 +5,17 @@ import axios from "axios";
 
 export default function CardList(){
 
-    const [receitas, setReceitas] = useState([]);
+    const [cards, setCards] = useState([]);
 
 
     useEffect( () => {
-        axios.get('/api/receitas').then(resposta => setReceitas(resposta.data)); //data serve para pegar os dados
+        axios.get('/api/receitas').then(resposta => setCards(resposta.data)); //data serve para pegar os dados
     }, []); //o [] vazio engloba tudo
 
 
     return(
       <div className={styles.cardList}>
-        {receitas.map(receita => (
+        {cards.map(receita => (
             <Card 
             key={receita.id}
             titulo = {receita.titulo}

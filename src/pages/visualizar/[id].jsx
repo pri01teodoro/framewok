@@ -7,7 +7,7 @@ export default function Visualizar(){
     return (
         <>
             <Header />
-
+            
             <OpenRecipe />
 
             <Footer />

@@ -1,22 +1,41 @@
-import { useEffect, useState  } from "react";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import styles from "./OpenRecipe.module.css"
+
 import axios from "axios";
 
+export default function TableRecipe(titulo){
 
-export default function OpenRecipe(){
     const router = useRouter();
-    const {id} = router.query;
+    const {id} = router.query
 
-    const [receita, setReceita] = useState({});
+
+    const [receita, setReceita] = useState
+    ({});
 
     useEffect(() => {
-        axios.get(`api/receitas/${id}`)
-            .then(resposta => setReceita (resposta.data))
-    }, [router]);
+        //Consultar API
+        axios.get(`/api/receitas/${id}`)
+        .then(resposta => setReceita
+            (resposta.data));
+    },[router])
 
     return (
         <>
-            <p>Receita</p>
+            <div>
+                <div className={styles.container__title}>
+                    <Image 
+                        src={receita.imagem}
+                        alt={receita.descricao}
+                        width= "387"
+                        height= "297"
+                    />
+                </div>
+                {/* <div className={styles.title}>
+                    <h1>Ovo com arroz e pepino</h1>
+                </div> */}
+            </div>
         </>
     )
 }

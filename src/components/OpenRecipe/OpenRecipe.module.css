@@ -1,0 +1,14 @@
+.container__title{
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    height: 158px;
+    margin: 0 auto;
+    background-color:rgba(235, 87, 87, 0.6);
+    font-family: 'Quicksand', sans-serif;
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 30px;
+}
