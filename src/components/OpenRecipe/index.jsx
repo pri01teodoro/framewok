@@ -11,7 +11,7 @@ export default function OpenRecipe(){
 
     useEffect(() => {
         axios.get(`api/receitas/${id}`)
-            .then(resposta => setPublicacao (resposta.data))
+            .then(resposta => setReceita (resposta.data))
     }, [router]);
 
     return (

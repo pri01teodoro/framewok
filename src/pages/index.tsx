@@ -29,10 +29,10 @@ export default function Home() {
               link={pagina.link}
               numero={pagina.numero} />
           ))}
-        </div>
+        </div>  
     </div> 
 
-      <Footer />
+    <Footer />
 
 
     </>

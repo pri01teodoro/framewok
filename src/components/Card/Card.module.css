@@ -14,7 +14,7 @@
     position: relative;
     display: flex;
     flex-direction: column-reverse;
-}
+}   
 
 .card__title {
     color: #F2F2F2;
@@ -22,17 +22,19 @@
     width: 387px;
     height: 64px;
     position: absolute;
-    font-family: 'Quicksand';
-    font-weight: 600;
+    font-family: 'Quicksand', sans-serif; /* Quicksand */
+    font-style: normal;
+    font-weight: 500; /* 600 */
     font-size: 22px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     padding-top: 16px;
 }
 
 .card__info {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif; 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400; /* 600 */
     font-size: 14px;
     padding-top: 19px;
     display: flex;
