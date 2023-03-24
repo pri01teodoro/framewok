@@ -10,7 +10,6 @@ export default function OpenRecipe(titulo) {
     const router = useRouter();
     const { id } = router.query
 
-
     const [receita, setReceita] = useState
         ({});
 
@@ -39,6 +38,26 @@ export default function OpenRecipe(titulo) {
                         <img src="/comida.svg" alt="ícone de um relógio" />
                         {receita.porcoes} porções
                     </div>
+                </div>
+                <h1 className={styles.subtitle}>Ingredientes</h1>
+                <div className={styles.container__ingr}>
+                    <li className={styles.ingredientes}>Ovos</li>
+                    <li className={styles.ingredientes}>Arroz</li>
+                    <li className={styles.ingredientes}>Pepino</li>
+                    <li className={styles.ingredientes}>Sal</li>
+                    <li className={styles.ingredientes}>Alho</li>
+
+                </div>
+                <h1 className={styles.subtitle}>Modo de Preparo</h1>
+                <div className={styles.preparo}>
+                    <p>{receita.preparo1}</p>
+                    <p>{receita.preparo2}</p>
+                    <p>{receita.preparo3}</p>   
+                </div>
+
+                <div className={styles.fonte}>
+                    <div>Fonte: Tudo Gostoso</div>
+                    <p>Link</p>
                 </div>
             </main>
 
