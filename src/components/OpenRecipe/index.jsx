@@ -5,7 +5,7 @@ import styles from "./OpenRecipe.module.css"
 
 import axios from "axios";
 
-export default function TableRecipe(titulo){
+export default function OpenRecipe(titulo){
 
     const router = useRouter();
     const {id} = router.query
@@ -32,9 +32,6 @@ export default function TableRecipe(titulo){
                         height= "297"
                     />
                 </div>
-                {/* <div className={styles.title}>
-                    <h1>Ovo com arroz e pepino</h1>
-                </div> */}
             </div>
         </>
     )
